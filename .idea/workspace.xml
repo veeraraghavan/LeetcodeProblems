@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc2f953-2b65-4a1c-948c-d1f7068d6ac4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/leetcode/string/removeKDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/leetcode/string/Monotone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeProblems/com/practice/leetcode/string/StringReverse2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeProblems/com/practice/leetcode/string/StringReverse2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeProblems/com/practice/leetcode/string/removeKDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeProblems/com/practice/leetcode/string/removeKDigits.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/string/removeKDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="325">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/string/Monotone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -120,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/practice/leetcode/MergeLists.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/medium/Codec.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/MergeSort.java" />
@@ -171,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/string/StringReverse2.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/NonRepeatedWord.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/string/removeKDigits.java" />
+        <option value="$PROJECT_DIR$/src/com/practice/leetcode/string/Monotone.java" />
       </list>
     </option>
   </component>
@@ -180,7 +188,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="949" />
     <option name="width" value="980" />
     <option name="height" value="1031" />
@@ -215,13 +223,6 @@
               <item name="LeetCodeProblems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCodeProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCodeProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -232,7 +233,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564292208210" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564293550062" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/SpringBootMultiTenancy/SpringBootMultiTenancy" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -260,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.removeKDigits">
+  <component name="RunManager" selected="Application.Monotone">
     <configuration name="Isomorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.leetcode.string.Isomorphic" />
       <module name="LeetCodeProblems" />
@@ -287,8 +288,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverse2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.leetcode.string.StringReverse2" />
+    <configuration name="Monotone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.leetcode.string.Monotone" />
       <module name="LeetCodeProblems" />
       <extension name="coverage">
         <pattern>
@@ -327,19 +328,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringReverse2" />
       <item itemvalue="Application.atoi" />
       <item itemvalue="Application.MaxTree" />
       <item itemvalue="Application.Isomorphic" />
       <item itemvalue="Application.removeKDigits" />
+      <item itemvalue="Application.Monotone" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Monotone" />
         <item itemvalue="Application.removeKDigits" />
         <item itemvalue="Application.Isomorphic" />
         <item itemvalue="Application.MaxTree" />
         <item itemvalue="Application.atoi" />
-        <item itemvalue="Application.StringReverse2" />
       </list>
     </recent_temporary>
   </component>
@@ -360,8 +361,8 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973357" visible="true" weight="0.16194332" />
-      <window_info id="Structure" order="1" sideWeight="0.5026643" side_tool="true" weight="0.23724696" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.19109312" />
+      <window_info id="Structure" order="1" sideWeight="0.5045045" side_tool="true" weight="0.05059022" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -369,8 +370,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5328597" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3463588" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5399645" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3463588" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -743,13 +744,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/linkedList/RotateList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1144,8 +1138,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/string/removeKDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="325">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/string/Monotone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
