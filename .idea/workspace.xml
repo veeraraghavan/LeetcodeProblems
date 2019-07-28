@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc2f953-2b65-4a1c-948c-d1f7068d6ac4" name="Default Changelist" comment="" />
+    <list default="true" id="4dc2f953-2b65-4a1c-948c-d1f7068d6ac4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practice/leetcode/NonRepeatedWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/leetcode/NonRepeatedWord.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/tree/MaxTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="85">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/NonRepeatedWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -92,12 +104,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/LeetcodeProblems" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/practice/leetcode/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/MergeLists.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/medium/Codec.java" />
@@ -148,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/tree/MaxTree.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/string/Isomorphic.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/string/StringReverse2.java" />
+        <option value="$PROJECT_DIR$/src/com/practice/leetcode/NonRepeatedWord.java" />
       </list>
     </option>
   </component>
@@ -196,7 +208,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564282601969" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564283019556" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/SpringBootMultiTenancy/SpringBootMultiTenancy" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -322,6 +334,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973357" visible="true" weight="0.16194332" />
       <window_info id="Structure" order="1" sideWeight="0.5026643" side_tool="true" weight="0.23724696" />
@@ -333,7 +346,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5328597" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3463588" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3463588" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -695,13 +708,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/arithmetic/SuperPower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1096,8 +1102,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/tree/MaxTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="85">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/NonRepeatedWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-end-line="72" />
         </state>
       </provider>
     </entry>
