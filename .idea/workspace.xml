@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc2f953-2b65-4a1c-948c-d1f7068d6ac4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/leetcode/array/StockBuySell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/leetcode/array/maxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/leetcode/dp/MinSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/leetcode/dp/stepsCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/leetcode/dp/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/leetcode/linkedList/MiddleNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/leetcode/misc/WaterJug.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practice/leetcode/dp/MinSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/leetcode/dp/MinSquares.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,24 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/string/atoi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/tree/MaxTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/NonRepeatedWord.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,23 +71,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/dp/MinSquares.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            <state relative-caret-position="22">
+              <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/string/StringReverse2.java">
+        <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/dp/CoinChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="66">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/misc/WaterJug.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="11" column="48" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/linkedList/MiddleNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -145,9 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/practice/leetcode/ValidateIP.java" />
-        <option value="$PROJECT_DIR$/src/com/practice/leetcode/tree/TreeFromInorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/com/practice/leetcode/array/CircularArray.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/arithmetic/Power.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/arithmetic/SuperPower.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/array/EqualizeArray.java" />
@@ -196,6 +190,9 @@
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/array/StockBuySell.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/dp/stepsCount.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/dp/MinSquares.java" />
+        <option value="$PROJECT_DIR$/src/com/practice/leetcode/dp/CoinChange.java" />
+        <option value="$PROJECT_DIR$/src/com/practice/leetcode/linkedList/MiddleNode.java" />
+        <option value="$PROJECT_DIR$/src/com/practice/leetcode/misc/WaterJug.java" />
       </list>
     </option>
   </component>
@@ -242,7 +239,7 @@
               <item name="LeetCodeProblems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="dp" type="462c0819:PsiDirectoryNode" />
+              <item name="misc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,7 +249,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564359159688" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564376987850" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/SpringBootMultiTenancy/SpringBootMultiTenancy" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -280,7 +277,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinSquares">
+  <component name="RunManager" selected="Application.WaterJug">
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.leetcode.dp.CoinChange" />
+      <module name="LeetCodeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.leetcode.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiddleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.leetcode.linkedList.MiddleNode" />
+      <module name="LeetCodeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.leetcode.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.leetcode.dp.MinSquares" />
       <module name="LeetCodeProblems" />
@@ -294,38 +317,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Monotone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.leetcode.string.Monotone" />
+    <configuration name="WaterJug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.leetcode.misc.WaterJug" />
       <module name="LeetCodeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.leetcode.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockBuySell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.leetcode.array.StockBuySell" />
-      <module name="LeetCodeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.practice.leetcode.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="maxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.leetcode.array.maxSubArray" />
-      <module name="LeetCodeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.practice.leetcode.array.*" />
+          <option name="PATTERN" value="com.practice.leetcode.misc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,19 +344,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Monotone" />
-      <item itemvalue="Application.maxSubArray" />
-      <item itemvalue="Application.StockBuySell" />
       <item itemvalue="Application.stepsCount" />
       <item itemvalue="Application.MinSquares" />
+      <item itemvalue="Application.CoinChange" />
+      <item itemvalue="Application.WaterJug" />
+      <item itemvalue="Application.MiddleNode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaterJug" />
+        <item itemvalue="Application.MiddleNode" />
+        <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.MinSquares" />
         <item itemvalue="Application.stepsCount" />
-        <item itemvalue="Application.StockBuySell" />
-        <item itemvalue="Application.maxSubArray" />
-        <item itemvalue="Application.Monotone" />
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +377,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.19109312" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.19109312" />
       <window_info id="Structure" order="1" sideWeight="0.5045045" side_tool="true" weight="0.05059022" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -389,7 +386,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30728242" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30728242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3463588" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -752,6 +749,12 @@
           <properties />
           <option name="timeStamp" value="127" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/leetcode/dp/CoinChange.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/practice/leetcode/linkedList/SplitLinkedList.java</url>
           <line>18</line>
@@ -769,27 +772,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/linkedList/LinkedListCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/linkedList/LinkedListCycleStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="9" selection-start-line="16" selection-start-column="6" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/array/EqualizeArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/array/AllDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1170,8 +1152,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/dp/MinSquares.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="22">
+          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/dp/CoinChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/linkedList/MiddleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/misc/WaterJug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="11" column="48" selection-end-line="27" />
         </state>
       </provider>
     </entry>

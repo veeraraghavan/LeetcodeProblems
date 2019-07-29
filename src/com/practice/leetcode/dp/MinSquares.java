@@ -1,5 +1,5 @@
 package com.practice.leetcode.dp;
-
+//https://leetcode.com/problems/perfect-squares/submissions/
 public class MinSquares {
     public static void main(String[] args) {
         MinSquares me = new MinSquares();
