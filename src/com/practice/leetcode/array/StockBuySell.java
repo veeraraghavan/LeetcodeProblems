@@ -2,8 +2,10 @@ package com.practice.leetcode.array;
 
 public class StockBuySell {
     public static void main(String[] args) {
+        Character[] C = new
+                Character[]{'a' , 'b'};
         StockBuySell me = new StockBuySell();
-        int[] nums = {7, 1, 5, 3, 6, 4};
+        int[] nums = {7, 2,8, 1, 6, 4};
         System.out.println(me.maxProfit(nums));
     }
 
