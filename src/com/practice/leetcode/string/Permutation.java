@@ -22,6 +22,7 @@ public class Permutation {
         }
         Map<Integer, Integer> indexMap = new HashMap<>();
 
+
         return permuteGenerate("", s2, s1.toCharArray(), indexMap);
 
     }

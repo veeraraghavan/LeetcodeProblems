@@ -3,7 +3,7 @@ package com.practice.playground.misc;
 public class PredictWinner {
     public static void main(String[] args) {
         PredictWinner me = new PredictWinner();
-        int[] input = new int[]{1,5,233,7};
+        int[] input = new int[]{1,5,2};
         System.out.println(me.PredictTheWinner(input));
     }
 
