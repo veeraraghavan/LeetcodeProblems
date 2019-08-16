@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc2f953-2b65-4a1c-948c-d1f7068d6ac4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/playground/arrays/SubArrayProductK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/playground/arrays/SubArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/playground/arrays/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/playground/misc/CanIWin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/playground/misc/PredictWinnerTemp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/playground/arrays/MissingElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/playground/arrays/RotatedArrayMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/playground/string/WordBreak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeProblems/com/practice/leetcode/string/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeProblems/com/practice/leetcode/string/Permutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeProblems/com/practice/playground/arrays/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeProblems/com/practice/playground/arrays/ThreeSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeProblems/com/practice/playground/misc/PredictWinner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeProblems/com/practice/playground/misc/PredictWinner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practice/leetcode/string/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/leetcode/string/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practice/playground/misc/PredictWinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/playground/misc/PredictWinner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,14 +37,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/practice/playground/arrays/ThreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
+            <state relative-caret-position="770">
               <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/practice/playground/arrays/SubArrayProductK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/practice/playground/arrays/RotatedArrayMin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/practice/playground/string/WordBreak.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="18" selection-start-line="18" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/practice/playground/arrays/MissingElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -77,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/practice/playground/misc/CanIWin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
+            <state relative-caret-position="682">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
@@ -121,9 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/practice/leetcode/linkedList/ReorderList.java" />
-        <option value="$PROJECT_DIR$/src/com/practice/leetcode/string/parantheses.java" />
-        <option value="$PROJECT_DIR$/src/com/practice/leetcode/backtracking/CombinationSum.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/backtracking/CombinationSum2.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/array/threePartsSum.java" />
         <option value="$PROJECT_DIR$/src/com/practice/leetcode/bitwise/onetwo.java" />
@@ -172,6 +201,9 @@
         <option value="$PROJECT_DIR$/src/com/practice/playground/misc/PredictWinnerTemp.java" />
         <option value="$PROJECT_DIR$/src/com/practice/playground/misc/PredictWinner.java" />
         <option value="$PROJECT_DIR$/src/com/practice/playground/misc/CanIWin.java" />
+        <option value="$PROJECT_DIR$/src/com/practice/playground/arrays/RotatedArrayMin.java" />
+        <option value="$PROJECT_DIR$/src/com/practice/playground/string/WordBreak.java" />
+        <option value="$PROJECT_DIR$/src/com/practice/playground/arrays/MissingElement.java" />
       </list>
     </option>
   </component>
@@ -182,9 +214,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="1935" />
-    <option name="height" value="1038" />
+    <option name="x" value="-11" />
+    <option name="width" value="980" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -194,6 +226,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,13 +251,6 @@
               <item name="LeetCodeProblems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCodeProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCodeProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="playground" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,16 +261,22 @@
               <item name="playground" type="462c0819:PsiDirectoryNode" />
               <item name="arrays" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCodeProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCodeProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="playground" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565702078427" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565965742601" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/SpringBootMultiTenancy/SpringBootMultiTenancy" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -271,13 +304,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CanIWin">
+  <component name="RunManager" selected="Application.MissingElement">
     <configuration name="CanIWin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.playground.misc.CanIWin" />
       <module name="LeetCodeProblems" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.practice.playground.misc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissingElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.playground.arrays.MissingElement" />
+      <module name="LeetCodeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.playground.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,21 +344,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredictWinnerTemp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.playground.misc.PredictWinnerTemp" />
-      <module name="LeetCodeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.practice.playground.misc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubArrayProductK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.playground.arrays.SubArrayProductK" />
+    <configuration name="RotatedArrayMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.playground.arrays.RotatedArrayMin" />
       <module name="LeetCodeProblems" />
       <extension name="coverage">
         <pattern>
@@ -324,12 +357,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArrayproductK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.playground.arrays.SubArrayproductK" />
+    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.playground.string.WordBreak" />
       <module name="LeetCodeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.playground.arrays.*" />
+          <option name="PATTERN" value="com.practice.playground.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,19 +371,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PredictWinnerTemp" />
       <item itemvalue="Application.PredictWinner" />
-      <item itemvalue="Application.SubArrayProductK" />
-      <item itemvalue="Application.SubArrayproductK" />
       <item itemvalue="Application.CanIWin" />
+      <item itemvalue="Application.RotatedArrayMin" />
+      <item itemvalue="Application.WordBreak" />
+      <item itemvalue="Application.MissingElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MissingElement" />
+        <item itemvalue="Application.WordBreak" />
+        <item itemvalue="Application.RotatedArrayMin" />
         <item itemvalue="Application.CanIWin" />
         <item itemvalue="Application.PredictWinner" />
-        <item itemvalue="Application.SubArrayProductK" />
-        <item itemvalue="Application.SubArrayproductK" />
-        <item itemvalue="Application.PredictWinnerTemp" />
       </list>
     </recent_temporary>
   </component>
@@ -368,10 +401,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2766" height="1126" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.18403548" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.22510122" />
       <window_info id="Structure" order="1" sideWeight="0.5045045" side_tool="true" weight="0.05059022" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,8 +413,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28063944" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.1861167" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26642984" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41030195" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -921,6 +954,24 @@
           <properties />
           <option name="timeStamp" value="201" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/playground/arrays/RotatedArrayMin.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/playground/string/WordBreak.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/playground/arrays/MissingElement.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/practice/leetcode/linkedList/SplitLinkedList.java</url>
           <line>18</line>
@@ -938,33 +989,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/bitwise/graycode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/backtracking/GenerateParanthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/backtracking/KSubset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="30" selection-start-line="5" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/leetcode/backtracking/Subset.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -1283,13 +1307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/practice/playground/arrays/SubArrayProductK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/playground/arrays/SubArraySum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1304,6 +1321,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practice/playground/arrays/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practice/playground/arrays/SubArrayProductK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -1323,18 +1357,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/playground/misc/CanIWin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
+        <state relative-caret-position="682">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/practice/playground/arrays/ThreeSum.java">
+    <entry file="file://$PROJECT_DIR$/src/com/practice/playground/arrays/RotatedArrayMin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="458">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practice/playground/string/WordBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="18" selection-start-line="18" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/practice/playground/arrays/MissingElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
         </state>
       </provider>
     </entry>
