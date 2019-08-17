@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc2f953-2b65-4a1c-948c-d1f7068d6ac4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/playground/Arithmetic/SolveEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/playground/arrays/Median2SortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeProblems/com/practice/playground/arrays/MissingElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeProblems/com/practice/playground/arrays/MissingElement.class" afterDir="false" />
-    </list>
+    <list default="true" id="4dc2f953-2b65-4a1c-948c-d1f7068d6ac4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/practice/playground/arrays/Median2SortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -188,14 +183,6 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="playground" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LeetCodeProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCodeProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="playground" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -203,7 +190,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566078085080" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566078863826" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/cod_nlp_facade" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -331,7 +318,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.22510122" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.22510122" />
       <window_info id="Structure" order="1" sideWeight="0.5045045" side_tool="true" weight="0.05059022" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -340,7 +327,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26642984" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26642984" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47602132" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1297,7 +1284,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/practice/playground/arrays/Median2SortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
         </state>
       </provider>
     </entry>

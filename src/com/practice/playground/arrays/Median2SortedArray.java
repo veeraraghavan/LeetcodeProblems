@@ -26,7 +26,6 @@ public class Median2SortedArray {
                 return Math.max(maxleftX, maxleftY);
             } else if (maxleftX > minRightY) {
                 high = partitionX - 1;
-
             } else {
                 low = partitionX + 1;
             }
