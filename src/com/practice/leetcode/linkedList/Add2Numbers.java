@@ -1,3 +1,7 @@
+https://leetcode.com/problems/add-two-numbers/
+
+//Add 2 numbers like you would do it on a piece of paper
+
 package LinkedList;
 
 import java.util.List;
