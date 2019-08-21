@@ -1,19 +1,10 @@
-https://leetcode.com/problems/add-two-numbers/
+//https://leetcode.com/problems/add-two-numbers/
 
 //Add 2 numbers like you would do it on a piece of paper
 
-package LinkedList;
+package com.practice.leetcode.linkedList;
 
 import java.util.List;
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
 
 public class Add2Numbers {
     public static void main(String[] args) {
@@ -32,36 +23,38 @@ public class Add2Numbers {
     }
 
     // Add with Carry
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2){
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         ListNode l1Curr = l1;
         ListNode l2Curr = l2;
         int carryOn = 0;
-        int  sum = 0;
+        int sum = 0;
         ListNode result = new ListNode(0);
         ListNode rCurr = result;
 
         int l1Val = 0;
         int l2Val = 0;
 
-        while ( l1Curr != null || l2Curr != null){
+        while (l1Curr != null || l2Curr != null) {
 
-            if(l1Curr !=null)l1Val = l1Curr.val;
-            if(l2Curr !=null)l2Val = l2Curr.val;
+            if (l1Curr != null) l1Val = l1Curr.val;
+            if (l2Curr != null) l2Val = l2Curr.val;
 
             sum = l1Val + l2Val + carryOn;
-            rCurr.val = sum % 10 ;
+            rCurr.val = sum % 10;
             carryOn = sum / 10;
 
             if (l1Curr != null) l1Curr = l1Curr.next;
             if (l2Curr != null) l2Curr = l2Curr.next;
 
-            if ((l1Curr != null || l2Curr != null)){
+            if ((l1Curr != null || l2Curr != null)) {
                 rCurr.next = new ListNode(0);
                 rCurr = rCurr.next;
             }
 
-            sum = 0;l1Val=0;l2Val=0;
+            sum = 0;
+            l1Val = 0;
+            l2Val = 0;
         }
 
         if (carryOn != 0)
@@ -74,17 +67,18 @@ public class Add2Numbers {
     // Extract the number from LL and then ADD --> Does not work for long INTs
     public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
 
-        long l1Val = 0; long sum;
+        long l1Val = 0;
+        long sum;
         String Str = "";
         ListNode curr = l1;
-        while (curr !=null){
+        while (curr != null) {
             Str = Integer.toString(curr.val) + Str;
             curr = curr.next;
         }
         l1Val = Long.parseLong(Str);
         Str = "";
         curr = l2;
-        while (curr !=null){
+        while (curr != null) {
             Str = Long.toString(curr.val) + Str;
             curr = curr.next;
         }
@@ -92,18 +86,18 @@ public class Add2Numbers {
 
         Str = Long.toString(sum);
 
-        int index = Str.length() -1;
+        int index = Str.length() - 1;
 
-        ListNode result = new ListNode(Integer.parseInt(Str.substring(index, index+1)));
+        ListNode result = new ListNode(Integer.parseInt(Str.substring(index, index + 1)));
         index--;
         curr = result;
-        while (index >= 0){
-            curr.next = new ListNode(Integer.parseInt(Str.substring(index, index+1)));
+        while (index >= 0) {
+            curr.next = new ListNode(Integer.parseInt(Str.substring(index, index + 1)));
             curr = curr.next;
             index--;
         }
 
-        return  result;
+        return result;
     }
 
 }
