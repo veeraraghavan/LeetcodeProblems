@@ -1,6 +1,5 @@
 package com.practice.leetcode.tree;
 
-import sun.reflect.generics.tree.Tree;
 
 public class MaxTree {
     public static void main(String[] args) {
