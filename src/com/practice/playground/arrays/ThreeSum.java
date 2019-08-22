@@ -1,8 +1,8 @@
 package com.practice.playground.arrays;
 
-import javafx.collections.transformation.TransformationList;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class ThreeSum {
     public static void main(String[] args) {
