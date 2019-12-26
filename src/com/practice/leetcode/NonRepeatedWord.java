@@ -13,13 +13,11 @@ import java.util.Map;
 public class NonRepeatedWord {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-
         try {
             String value = firstUnrepeatedWord(readTextFromFile());
             System.out.println(value);
+           // value.spl
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
 

@@ -9,42 +9,45 @@ public class decode {
         System.out.println(me.decodeString("3[a2[c]]"));
     }
 
-    public String decodeString(String s) {
+    private String decodeString(String s) {
         Stack<String> contentString = new Stack<>();
-        String top = "";
-
+        String top;
+        String result = "";
+        //Algorithm: Scan to the right until you find ].
+        // Once found scan left until you find [
+        // The text between this is the text 
+        // Find its coefficient by traversing left 
+        // Print the text coefficient number of times
         for (int i = 0; i < s.length(); i++) {
-            String temp = "";
+            String textToPrint = "";
             if (s.charAt(i) != ']') {
                 contentString.push(s.charAt(i) + "");
             } else {
                 while (!contentString.peek().equals("[")) {
                     top = contentString.pop();
-                    temp = top + temp;
+                    textToPrint = top + textToPrint;
                 }
 
                 contentString.pop();
-                int count2 = 0;
-                String fact = "";
-                while (!contentString.isEmpty() && Character.isDigit(contentString.peek().charAt(0))) {
-                    fact = contentString.pop() + fact;
-                }
-                int count = Integer.parseInt(fact);
+                StringBuilder coefficientText = new StringBuilder();
+                while (!contentString.isEmpty() && Character.isDigit(contentString.peek().charAt(0)))
+                    coefficientText.insert(0, contentString.pop());
+                int coefficient = Integer.parseInt(coefficientText.toString());
                 String interResult = "";
-
-                for (int j = 0; j < count; j++) {
-                    interResult += temp;
+                for (int j = 0; j < coefficient; j++) {
+                    interResult += textToPrint;
                 }
                 contentString.push(interResult);
             }
         }
-        String result = "";
+
         while (!contentString.isEmpty()) {
             String temp = "";
             temp = contentString.pop();
             result = temp + result;
 
         }
+        //.bitCount()
         return result;
 
     }

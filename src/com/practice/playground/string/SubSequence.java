@@ -25,10 +25,10 @@ public class SubSequence {
                         subSequence[j][k] = Math.max(subSequence[j + 1][k], subSequence[j][k - 1]);
                     }
                 }
-                ans = ans > subSequence[j][k] ? ans : subSequence[j][k];
+                //ans = ans > subSequence[j][k] ? ans : subSequence[j][k];
             }
         }
-        return ans;
+        return subSequence[0][characters.length-1];
 
     }
 }

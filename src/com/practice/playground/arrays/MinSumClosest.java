@@ -17,9 +17,6 @@ public class MinSumClosest {
        When sum greater than target decrement k else increment j
        store the combination of sum and difference of sum and target.
        In case we dont get a target==sum condition return the minSum;
-
-
-
         */
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);

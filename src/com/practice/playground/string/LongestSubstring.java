@@ -47,8 +47,6 @@ public class LongestSubstring {
             while(!end){
                 if(index==0)
                     result=s.substring(index,1);
-
-
             }
         }
         return result;

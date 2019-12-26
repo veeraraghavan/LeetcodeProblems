@@ -4,7 +4,7 @@ import java.util.List;
 
 public class NextPermutation {
     public static void main(String[] args) {
-        int[] input = {1,1};
+        int[] input = {1,2,3};
         NextPermutation me = new NextPermutation();
         me.nextPermutation(input);
         System.out.println("me.nextPermutation(input)");

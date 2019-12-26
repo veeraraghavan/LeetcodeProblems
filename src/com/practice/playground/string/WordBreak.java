@@ -8,12 +8,12 @@ public class WordBreak {
     public static void main(String[] args) {
         WordBreak me = new WordBreak();
         List<String> dict = new ArrayList<>();
-        dict.add("cats");
-        dict.add("dog");
-        dict.add("sand");
-        dict.add("and");
-        dict.add("cat");
-        System.out.println(me.wordBreak("catsandog", dict));
+        dict.add("a");
+        dict.add("aa");
+        dict.add("aaa");
+        dict.add("aaaa");
+
+        System.out.println(me.wordBreak("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab", dict));
     }
 
     public boolean wordBreak(String s, List<String> wordDict) {
@@ -34,7 +34,6 @@ public class WordBreak {
 
         for (int end = start + 1; end <= s.length(); end++) {
             if (wordDict.containsKey(s.substring(start, end)) && isComplete(s, wordDict, end, memo)) {
-
                 return memo[start] = true;
             }
         }

@@ -1,6 +1,8 @@
 package com.practice.playground.arrays;
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class TwoSum {
@@ -15,13 +17,14 @@ public class TwoSum {
         for(int i=0;i<nums.length;i++){
             valMap.put(nums[i],i);
         }
+
         for(int i=0;i<nums.length;i++){
             if(valMap.containsKey(target-nums[i]) && valMap.get(target-nums[i])!=i){
                 result[0] = i;
                 result[1] = valMap.get(target-nums[i]);
                 return result;
             }
-
+           // Arrays.asList()
 
         }
         return result;

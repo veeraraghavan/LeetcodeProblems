@@ -7,6 +7,7 @@ public class Decode2 {
         System.out.println(me.decodeAtIndex("ha22", 5));
         System.out.println(me.decodeAtIndex("a2345678999999999999999", 1));
     }
+    //TODO: Check and solve this problem again
 
     public String decodeAtIndex(String S, int K) {
         if (S.length() == 0 || K == 0)
