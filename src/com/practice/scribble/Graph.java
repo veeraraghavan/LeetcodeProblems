@@ -12,6 +12,7 @@ public class Graph {
         NOT_VISITED, VISITED, VISITING;
     }
 
+
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         if(prerequisites == null || prerequisites.length == 0 || prerequisites[0].length == 0) return true;
         // building graph

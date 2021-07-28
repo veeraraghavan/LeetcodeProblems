@@ -1,8 +1,8 @@
 package com.practice.playground.geometry;
 
-import java.util.HashMap;
-
 import javafx.util.Pair;
+
+import java.util.HashMap;
 
 public class MaxPoints {
     public static void main(String[] args) {

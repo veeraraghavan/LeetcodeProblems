@@ -1,7 +1,5 @@
 package com.practice.leetcode.tree;
 
-import sun.reflect.generics.tree.Tree;
-
 public class MaxTree {
     public static void main(String[] args) {
         int[] nums = {3, 2, 1, 6, 0, 5};
