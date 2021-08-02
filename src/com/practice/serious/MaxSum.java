@@ -14,10 +14,22 @@ public class MaxSum {
   }
 
   private int maxSumDivThree(int[] nums) {
+    // int[][] dp = new int[nums.length][]
     return getMax(nums, 0, 0);
   }
 
   private int getMax(int[] nums, int index, int sum) {
+    if (index == nums.length) {
+      if (sum % 3 == 0) return sum;
+      return 0;
+    }
+
+    int sum1 = getMax(nums, index + 1, sum + nums[index]);
+    int sum2 = getMax(nums, index + 1, sum);
+    return Math.max(sum1, sum2);
+  }
+
+  private int getMaxDP(int[] nums, int index, int sum) {
     if (index == nums.length) {
       if (sum % 3 == 0) return sum;
       return 0;
