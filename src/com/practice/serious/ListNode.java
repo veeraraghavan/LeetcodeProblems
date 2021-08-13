@@ -8,7 +8,7 @@
 package com.practice.serious;
 
 public class ListNode {
-  private int val;
+  public int val;
   ListNode next;
 
   ListNode() {}
