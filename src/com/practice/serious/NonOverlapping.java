@@ -29,7 +29,6 @@ public class NonOverlapping {
           check if is not first element ,then i-start+1
           else
        c. if sum lower than target - do nothing
-
     */
     int[] best = new int[arr.length];
     int bestSoFar = Integer.MAX_VALUE;
