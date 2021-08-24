@@ -11,9 +11,10 @@ package com.practice.leetcode.array;
 public class OneTwose_137 {
   public static void main(String[] args) {
     OneTwose_137 me = new OneTwose_137();
+    me.singleNumber(new int[] {3, 7, 3, 7, 3, 7, 99});
   }
 
-  public int singleNumber(int[] nums) {
+  private int singleNumber(int[] nums) {
     // we need three number
     // Ones, twose, threes . Fill each one
 
