@@ -1,6 +1,10 @@
 package com.practice.india;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class SentenceSimilarityII {
 
@@ -10,9 +14,11 @@ public class SentenceSimilarityII {
   public static void main(String[] args) {
 
     String[] words1 = new String[] {"great", "acting", "skills"};
-    String[] words2 = new String[] {"fine", "painting", "talent"};
+    String[] words2 = new String[] {"fine", "drama", "talent"};
     String[][] wordList =
-        new String[][] {{"great", "fine"}, {"drama", "acting"}, {"skills", "talent"}};
+        new String[][] {
+          {"great", "good"}, {"fine", "good"}, {"drama", "acting"}, {"skills", "talent"}
+        };
     List<List<String>> words = new ArrayList<>();
     for (String[] wordgrp : wordList) {
       words.add(Arrays.asList(wordgrp));
@@ -58,16 +64,17 @@ public class SentenceSimilarityII {
     if (pa == pb) {
       return;
     }
-    if (rank[pa] == rank[pb]) {
-      root[pb] = root[pa];
-      rank[pb]++;
-    } else if (rank[pa] > rank[pb]) {
-      root[pb] = root[pa];
-      rank[pb]++;
-    } else {
-      root[pa] = root[pb];
-      rank[pb]++;
-    }
+    //    if (rank[pa] == rank[pb]) {
+    //      root[pb] = root[pa];
+    //      rank[pb]++;
+    //    } else if (rank[pa] > rank[pb]) {
+    //      root[pb] = root[pa];
+    //      rank[pb]++;
+    //    } else {
+    //      root[pa] = root[pb];
+    //      rank[pb]++;
+    //    }
+    root[pb] = root[pa];
   }
 
   public int find(int wi) {
