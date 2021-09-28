@@ -12,6 +12,8 @@ public class Ternary {
     Ternary me = new Ternary();
   }
 
+  int index = 0;
+
   public String parseTernary(String expression) {
     return Character.toString(helper(expression));
   }

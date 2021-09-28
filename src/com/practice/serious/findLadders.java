@@ -7,13 +7,7 @@
 
 package com.practice.serious;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class findLadders {
 
@@ -25,17 +19,16 @@ public class findLadders {
 
   private List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
     List<List<String>> result = new ArrayList<>();
-    HashSet<String> unvisited = new HashSet<>(wordList);
+    // HashSet<String> unvisited = new HashSet<>(wordList);
     HashMap<String, List<String>> graph = new HashMap<>();
     HashMap<String, Integer> distances = new HashMap<>();
-    bfs(beginWord, endWord, graph, distances, wordList);
+    bfs(beginWord, graph, distances, wordList);
     dfs(beginWord, endWord, graph, distances, new ArrayList<>(), result);
     return result;
   }
 
   private void bfs(
       String beginWord,
-      String endWord,
       HashMap<String, List<String>> graph,
       HashMap<String, Integer> distances,
       List<String> wordList) {

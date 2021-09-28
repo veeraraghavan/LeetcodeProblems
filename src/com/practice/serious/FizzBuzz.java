@@ -93,13 +93,14 @@ public class FizzBuzz {
               }
             });
     t1.start();
+
     t2.start();
     t3.start();
     t4.start();
-    t1.join();
-    t2.join();
-    t3.join();
     t4.join();
+    t3.join();
+    t2.join();
+    t1.join();
   }
 
   // printFizz.run() outputs "fizz".
