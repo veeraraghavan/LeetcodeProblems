@@ -11,27 +11,36 @@ public class RedundantConnection {
 
   public static void main(String[] args) {
     RedundantConnection me = new RedundantConnection();
+    int[][] edges =
+        new int[][] {
+          {0, 1}, {2, 3}, {4, 5}, {6, 7}, {8, 9}, {9, 6}, {7, 5}, {0, 2}, {3, 4}, {7, 1}, {8, 9}
+        };
+    me.findRedundantConnection(edges, 10);
   }
 
   private int parent[];
   private int rank[];
 
-  public int[] findRedundantConnection(int[][] edges) {
+  public void findRedundantConnection(int[][] edges, int length) {
     // Union & find . Create a union of each vertices. if the parent of both nodes are
     // same,then there is a cycle.
-    parent = new int[edges.length * 2];
-    for (int i = 0; i < parent.length; i++) {
+    parent = new int[length];
+    rank = new int[length];
+
+    for (int i = 0; i < length; i++) {
       parent[i] = i;
       rank[i] = 1;
     }
     for (int i = 0; i < edges.length; i++) {
       int a = edges[i][0];
       int b = edges[i][1];
-      if (union(a, b)) {
-        return edges[i];
-      }
+      //      if (union(a, b)) {
+      //        return edges[i];
+      //      }
+      union(a, b);
       ;
     }
+    System.out.println("Completed");
     throw new AssertionError();
   }
 
@@ -44,7 +53,7 @@ public class RedundantConnection {
       rank[pa] += rank[pb];
     } else {
       parent[pa] = parent[pb];
-      parent[pb] += parent[pa];
+      rank[pb] += rank[pa];
     }
     return false;
   }

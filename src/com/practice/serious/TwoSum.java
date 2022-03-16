@@ -15,6 +15,8 @@ public class TwoSum {
     TwoSum me = new TwoSum();
   }
 
+  // 1 1 3 5 5
+
   public int[] twoSum(int[] nums, int target) {
     int result[] = new int[2];
     HashMap<Integer, Integer> numberDict = new HashMap();

@@ -16,6 +16,10 @@ public class WordBreak {
   }
 
   private boolean wordBreak2(String s, List<String> wordDict) {
+    int ws = 0, we = s.length() - 1;
+    // (!Character.isAlphabetic(s.charAt(ws))
+    while ((!Character.isAlphabetic(s.charAt(ws)) && (ws < we))) ws++;
+
     HashMap<String, Boolean> wordDictionary = new HashMap<>();
     for (int i = 0; i < wordDict.size(); i++) {
       wordDictionary.put(wordDict.get(i), true);
@@ -24,7 +28,7 @@ public class WordBreak {
   }
 
   private boolean isComplete(
-          String s, HashMap<String, Boolean> wordDict, int start, Boolean[] memo) {
+      String s, HashMap<String, Boolean> wordDict, int start, Boolean[] memo) {
     if (start == s.length()) return true;
     if (memo[start] != null) return memo[start];
 
@@ -45,7 +49,7 @@ public class WordBreak {
   }
 
   private boolean wordBreakrecurse(
-          String s, HashMap<String, Boolean> wordMap, int index, Boolean[] exists) {
+      String s, HashMap<String, Boolean> wordMap, int index, Boolean[] exists) {
     if (index == s.length()) return true;
     if (exists[index] != null) return exists[index];
     String temp = "";

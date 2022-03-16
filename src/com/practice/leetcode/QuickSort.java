@@ -3,7 +3,7 @@ package com.practice.leetcode;
 public class QuickSort {
 
   public static void main(String[] args) {
-    int[] a = {1, 4, 5, 2, 3};
+    int[] a = {1, 3, 2, 8, 6, 7};
     QuickSort me = new QuickSort();
     me.quickSort(a, 0, a.length - 1);
     for (int k : a) {
